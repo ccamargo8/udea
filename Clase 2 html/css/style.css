@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Selector: h1
 Declaracion: background-color
 */
@@ -18,4 +19,26 @@ div{
     max-width: 300px;
     height: 230px;
     background-color:blue;
+=======
+/* Selector: h1
+Declaracion: background-color
+*/
+
+h1{
+    background-color:aquamarine;
+    color: red;
+    font-family: Helvetica;
+}
+
+p{
+    /*background-color: darkcyan;*/
+    color: black;
+    text-align: justify;
+    font-size: medium;
+}
+div{
+    max-width: 300px;
+    height: 230px;
+    background-color:blue;
+>>>>>>> dead3bc60c79b0c372082dc222fbfbda1a6b07a2
 }

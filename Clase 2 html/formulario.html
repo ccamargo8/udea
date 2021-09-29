@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -51,4 +52,59 @@
     </form>
     
 </body>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/formulario.css" type="text/css">
+    <script src="js/main.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <center><h1>Formulario de registro</h1></center>
+    <form class="my-form" action="">
+        <div class="container">
+            <select name="Tipo documento" required>
+                <option selected disabled>Seleccione una opcion</option>
+                <option value="1-CC">Cedula de ciudadania</option>
+                <option value="2-TI">Tarjeta de identidad</option>
+                <option value="3-CE">Cedula de extranjeria</option>
+                <option value="4-PA">Pasaporte</option>
+            </select>
+            <input type="text" placeholder="Numero ID" Required>
+        </div><br>
+        <div class="grid grid-2">
+            <input type="text" placeholder="Nombres" required>
+            <input type="text" placeholder="Apellidos" required>
+        </div><br>
+        <div class="grid grid-2">
+            <input type="email" placeholder="Correo" required>
+            <input type="number" placeholder="Telefono" required>
+        </div><br>
+        <textarea placeholder="Observaciones"></textarea><br>
+        <input type="checkbox" id="terms">
+        <label for="terms">Aceptación de datos</label>
+        <div class="grid grid-3"><br>
+            <div class="required-msg">Obligatorio</div>
+                <button class="btn-grid" type="submit" disabled>
+                    <span class="back">
+                        <img src="" alt="">
+                    </span>
+                    <span class="front">Enviar</span>
+                </button>  
+                <button class="btn-grid" type="submit" disabled>
+                    <span class="back">
+                        <img src="" alt="">
+                    </span>
+                    <span class="front">Eliminar</span>
+                </button>     
+
+        </div>
+    </form>
+    
+</body>
+>>>>>>> dead3bc60c79b0c372082dc222fbfbda1a6b07a2
 </html>
