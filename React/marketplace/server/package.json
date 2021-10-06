@@ -1,0 +1,11 @@
+{
+  "name": "marketplace",
+  "version": "0.0.1",
+  "description": "Backend marketplace",
+  "main": "index.js",
+  "author": "Carlos C",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt-nodejs": "^0.0.3"
+  }
+}
